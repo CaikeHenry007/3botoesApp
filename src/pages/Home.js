@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import { styles } from "../styles/StyleSheet";
 
 const Home = ({ children }) => {
@@ -12,7 +12,12 @@ const Home = ({ children }) => {
     alert("Você apertou o botão da imagem!");
   };
 
-  return <View style={styles.container}></View>;
+  return (
+    <View style={styles.container}>
+      <Text style={styles.titulo}>Aperte os botões</Text>
+      {children}
+    </View>
+  );
 };
 
 export default Home;

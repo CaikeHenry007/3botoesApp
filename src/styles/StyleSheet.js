@@ -8,6 +8,13 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
+  titulo: {
+    fontSize: 25,
+    color: "white",
+    fontStyle: "italic",
+    fontWeight: "bold",
+  },
+
   btn1: {
     backgroundColor: "#00FFFF",
     width: "15%",
