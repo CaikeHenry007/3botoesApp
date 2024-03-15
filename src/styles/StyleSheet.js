@@ -45,11 +45,11 @@ export const styles = StyleSheet.create({
     color: "#8B008B",
   },
 
-  // Botão de imagem
+  // Botão de imagem 1
   btn3: {
     backgroundColor: "#00FF00",
-    width: "15%",
-    height: "10%",
+    width: "17%",
+    height: "12%",
     borderColor: "#008000",
     borderWidth: 2,
     borderRadius: 20,
@@ -58,8 +58,21 @@ export const styles = StyleSheet.create({
     color: "#008000",
   },
 
+  // Botão de imagem 2
+  btn4: {
+    backgroundColor: "#FFFF00",
+    width: "17%",
+    height: "12%",
+    borderColor: "#FF8C00",
+    borderWidth: 2,
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#FF8C00",
+  },
+
   img: {
-    width: "20%",
+    width: "25%",
     height: "80%",
   },
 });

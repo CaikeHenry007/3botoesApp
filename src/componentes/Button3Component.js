@@ -2,13 +2,10 @@
 import { Image, TouchableOpacity } from "react-native";
 import { styles } from "../styles/StyleSheet";
 
-export default function Button3() {
+export default function Button3({ source, style }) {
   return (
-    <TouchableOpacity onPress={pressButton3} style={styles.btn3}>
-      <Image
-        source={require("../assets/images/clicar.png")}
-        style={styles.img}
-      />
+    <TouchableOpacity onPress={pressButton3} style={style}>
+      <Image source={source} style={styles.img} />
     </TouchableOpacity>
   );
 }
