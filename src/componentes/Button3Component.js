@@ -1,3 +1,4 @@
+// Importando os itens necessários
 import { Image, TouchableOpacity } from "react-native";
 import { styles } from "../styles/StyleSheet";
 

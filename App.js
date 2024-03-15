@@ -1,3 +1,4 @@
+// Importando os componentes
 import Home from "./src/pages/Home";
 import Button1 from "./src/componentes/Button1Component";
 import Button2 from "./src/componentes/Button2Component";

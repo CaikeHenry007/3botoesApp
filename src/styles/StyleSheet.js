@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 
+  // Botão de Log In
   btn1: {
     backgroundColor: "#00FFFF",
     width: "15%",
@@ -29,6 +30,7 @@ export const styles = StyleSheet.create({
     color: "#008080",
   },
 
+  // Botão de Sign In
   btn2: {
     backgroundColor: "#FF1493",
     width: "15%",
@@ -43,6 +45,7 @@ export const styles = StyleSheet.create({
     color: "#8B008B",
   },
 
+  // Botão de imagem
   btn3: {
     backgroundColor: "#00FF00",
     width: "15%",
